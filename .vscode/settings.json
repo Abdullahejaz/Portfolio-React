@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/2ed7c402-a38d-46eb-9d13-0e9c9569f1be/resourceGroups/AE-Portfolio/providers/Microsoft.Web/sites/abdullahejaz",
+    "appService.defaultWebAppToDeploy": "",
     "appService.deploySubpath": "."
 }

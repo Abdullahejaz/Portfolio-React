@@ -3,7 +3,8 @@
 .app{
   height: 100vh;
   overflow-x: hidden;
-  scroll-snap-type: y mandatory;
+  font-family: 'Josefin Sans', sans-serif;
+  /* scroll-snap-type: y mandatory; */
 }
 
 .sections{
@@ -22,7 +23,7 @@
 div.sections > *{
   width: 100vw;
   height: 100vh;
-  scroll-snap-align: end;
+  /* scroll-snap-align: end; */
 }
 
 :root{
@@ -34,7 +35,7 @@ div.sections > *{
 }
 
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 a {
