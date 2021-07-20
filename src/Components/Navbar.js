@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Images/developer.png'
+import logo from '../Images/transparen2.png'
 
 const Navbar = () => {
     return (
@@ -14,19 +14,19 @@ const Navbar = () => {
             <div className="collapse navbar-collapse abcd" id="navbarScroll">
                 <ul className="navbar-nav my-2 my-lg-0 navbar-nav-scroll" styles="--bs-scroll-height: 100px;">
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#">Home</a>
+                        <a className="nav-link" aria-current="page" href="#header">Header</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <a className="nav-link" href="#skills">Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Experience</a>
+                        <a className="nav-link" href="#experience">Experience</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Education</a>
+                        <a className="nav-link" href="#education">Education</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Projects</a>
+                        <a className="nav-link" href="#projects">Projects</a>
                     </li>
                 </ul>
             </div>

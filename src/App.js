@@ -2,37 +2,27 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Particles from 'react-particles-js';
 import Navbar from './Components/Navbar';
-import Header from './Components/Header';
+import Header from './Components/Header/Header';
+import Skills from './Components/Skills/Skills';
+import Experience from './Components/Experience/Experience';
+import Education from './Components/Education/Education';
+import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <>
-      <Particles
-      className="partical-canvas"
-        params={{
-          particles: {
-            number:{
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900
-              }
-            },
-            shape:{
-              type:"circle",
-              stroke: {
-                width:6,
-                color: "#f9ab00"
-              }
-            }
-          }
-        }} 
-      />
-      <Navbar />
-      <Header />
-    </>
+    <div className="app">
+        <Navbar />
+      <div className="sections">
+        <Header />
+        <Skills />
+        <Experience />
+        <Education />
+        <Projects />
+        <Contact />
+      </div>
+    </div>
   );
 }
 
