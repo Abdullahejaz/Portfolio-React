@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -12,6 +15,7 @@
     "react-particles-js": "^3.5.3",
     "react-scripts": "4.0.3",
     "react-typed": "^1.2.0",
+    "react-vertical-timeline-component": "^3.3.3",
     "tsparticles": "^1.31.1",
     "web-vitals": "^1.1.2"
   },

@@ -22,7 +22,6 @@
 
 div.sections > *{
   width: 100vw;
-  height: 100vh;
   /* scroll-snap-align: end; */
 }
 
@@ -62,6 +61,10 @@ border-color: #1861ac;
   width: 100%;
   position: fixed !important;
   z-index: 2;
+}
+
+.dark-theme{
+  background-color: #181818;
 }
 
 nav a.nav-link {

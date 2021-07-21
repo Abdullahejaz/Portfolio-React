@@ -6,9 +6,9 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header/Header';
 import Skills from './Components/Skills/Skills';
 import Experience from './Components/Experience/Experience';
-import Education from './Components/Education/Education';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -18,9 +18,10 @@ function App() {
         <Header />
         <Skills />
         <Experience />
-        <Education />
         <Projects />
         <Contact />
+        <Footer />
+
       </div>
     </div>
   );

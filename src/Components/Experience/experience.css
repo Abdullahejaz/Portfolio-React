@@ -1,3 +1,35 @@
 .div-experience{
-    background-color: lightgreen;
+    background-color: #131414;
+    padding-bottom: 6rem;
 }
+
+.title-exp{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #C49B66;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 1.5em 2.5em !important;
+    transition: all 0.3s ease;
+}
+
+.vertical-timeline-element-content:hover{
+  transform: scale(1.05);
+}
+
+.date {
+    color: #afafaf;
+}
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      color: #C49B66;
+      margin-top: 0.5em;
+      font-size: 1.1em !important;
+    }
+  }

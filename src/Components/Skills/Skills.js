@@ -1,5 +1,8 @@
 import React from 'react'
 import './skills.css'
+import skillsIcon from '../../Images/skillIcon2.png';
+import layerIcon from '../../Images/layer.png';
+import educationIcon from '../../Images/educHat2.png';
 
 const Skills = () => {
     return (
@@ -8,57 +11,68 @@ const Skills = () => {
                 <div className="parallax vertical-center">
                     <div className="container paddingTop">
                         <div className="row">
-                            <div className="col-lg-6 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                                 <div className="Skills-tech">
-                                    <span class="icon icon-pencil"></span>
-                                    <h5 class="title">Education</h5>
-                                    <ul>
-                                        <li>
-                                            <h6>Programming Languages</h6>
-                                            <p>C#, Java</p>
-                                        </li>
-                                        <li>
-                                            <h6>Technologies</h6>
-                                            <p>MVC 5, .NET Core, .NET Core Web API</p>
-                                        </li>
-                                        <li>
-                                            <h6>Client And Browser Tools</h6>
-                                            <p>AJAX, React, HTML5, Bootstrap, CSS, JQuery, JavaScript</p>
-                                        </li>
-                                        <li>
-                                            <h6>DBMS</h6>
-                                            <p>MySQL, MS SQL Server</p>
-                                        </li>
-                                    </ul>
+                                    <img className="icon-edu" src={educationIcon} alt="Skills Icon"></img>
+                                    <h5 className="title">Education</h5>
+                                    <div className="listItem">
+                                        <h6>Texas Tech University</h6>
+                                        <p>Master of Science</p>
+                                    </div>
+                                    <div className="listItem">
+                                        <h6>DR APJ Abdul Kalam University</h6>
+                                        <p>Bachelor Of Science</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-sm-6">
-                                <div class="skills-dev">
-                                    <span class="icon icon-layers"></span>
-                                    <h5 class="title">My Skills</h5>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="Skills-tech">
+                                    <img className="icon" src={skillsIcon} alt="Skills Icon"></img>
+                                    <h5 className="title">My Skills</h5>
+                                    <div className="listItem">
+                                        <h6>Programming Languages</h6>
+                                        <p>C#, Java</p>
+                                    </div>
+                                    <div className="listItem">
+                                        <h6>Technologies</h6>
+                                        <p>MVC 5, .NET Core, Web API, Azure</p>
+                                    </div>
+                                    <div className="listItem">
+                                        <h6>Client And Browser Tools</h6>
+                                        <p>JavaScript, React, HTML5, Bootstrap, CSS, JQuery</p>
+                                    </div>
+                                    {/* <div className="listItem">
+                                        <h6>DBMS</h6>
+                                        <p>MySQL, MS SQL Server</p>
+                                    </div> */}
+                                </div>
+                            </div>
+                            <div className="col-lg-5 col-sm-6">
+                                <div className="skills-dev">
+                                <img className="icon" src={layerIcon} alt="Layer Icon"></img>
+                                    <h5 className="title">Development Skills</h5>
 
-                                    <div class="skill">
-                                        <h6>Web Design <span>90%</span></h6>
-                                        <div class="skills-progress"><span data-value='90%'></span></div>
+                                    <div className="skill">
+                                        <h6>Full Stack Development <span>90%</span></h6>
+                                        <div className="skills-progress"><span className="sk1" data-value='90%'></span></div>
                                     </div>
-                                    <div class="skill">
-                                        <h6>Development <span>80%</span></h6>
-                                        <div class="skills-progress"><span data-value='80%'></span></div>
+                                    <div className="skill">
+                                        <h6>Web Development <span>80%</span></h6>
+                                        <div className="skills-progress"><span className="sk2" data-value='80%'></span></div>
                                     </div>
-                                    <div class="skill">
-                                        <h6>Branding <span>85%</span></h6>
-                                        <div class="skills-progress"><span data-value='85%'></span></div>
+                                    <div className="skill">
+                                        <h6>Designing <span>85%</span></h6>
+                                        <div class="skills-progress"><span className="sk3" data-value='65%'></span></div>
                                     </div>
-                                    <div class="skill">
+                                    <div className="skill">
                                         <h6>Marketing <span>75%</span></h6>
-                                        <div class="skills-progress"><span data-value='75%'></span></div>
+                                        <div className="skills-progress"><span className="sk4" data-value='75%'></span></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-           <div className="div-covers"></div>
         </div>
     )
 }

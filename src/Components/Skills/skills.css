@@ -13,7 +13,7 @@
 
 .div-covers{
     height: 20vh;
-    background-color: rgb(37, 37, 35);
+    background-color: #131414;
 }
 .skill {
     margin-bottom: 30px;
@@ -36,16 +36,19 @@ padding-bottom: 30px;
     margin-bottom: 5px;
 }
 
-.Skills-tech ul li h6 {
+.Skills-tech .listItem h6 {
     color: #eee;
     font-size: 16px;
     font-weight: 400;
     font-family: inherit;
     margin-bottom: 5px;
 }
-.Skills-tech ul li p {
+
+.Skills-tech .listItem p {
     color: rgb(175, 175, 175);
+    margin-bottom: 28px;
 }
+
 
 .skills-progress{
     position: relative;
@@ -58,10 +61,22 @@ padding-bottom: 30px;
 .skills-progress span {
     position: absolute;
     height: 100%;
-    width: 85%;
     background: #C49B66;
     -webkit-transition: all 1s;
     transition: all 1s;
+}
+
+.sk1{
+    width: 85%;
+}
+.sk2{
+    width: 80%;
+}
+.sk3{
+    width: 65%;
+}
+.sk4{
+    width: 80%;
 }
 
 .skills-dev h5 {
@@ -79,7 +94,7 @@ padding-bottom: 30px;
     font-family: inherit;
     margin-bottom: 5px;
 }
-.Skills-tech ul li p {
+.Skills-tech .listItem p {
     color: rgb(175, 175, 175);
 }
 
@@ -96,4 +111,14 @@ padding-bottom: 30px;
     width: 100%;
     display: grid;
     align-items: center;
+}
+
+.icon {
+    width: 2.4rem;
+    margin-bottom: 15px;
+}
+
+.icon-edu{
+    width: 3rem;
+    margin-bottom: 15px;
 }
