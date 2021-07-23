@@ -1,21 +1,21 @@
 .div-experience{
-    background-color: #131414;
-    padding-bottom: 6rem;
+  background-color: #131414;
+  padding-bottom: 6rem;
 }
 
 .title-exp{
-    padding-top: 6rem;
-    padding-bottom: 2rem;
-    font-size: 4rem;
-    text-align: center;
-    color: #C49B66;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  color: #C49B66;
 }
 
 .vertical-timeline-element-content {
-    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
-    padding: 1.5em 2.5em !important;
-    transition: all 0.3s ease;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 1.5em 2.5em !important;
+  transition: all 0.3s ease;
 }
 
 .vertical-timeline-element-content:hover{
@@ -23,7 +23,7 @@
 }
 
 .date {
-    color: #afafaf;
+  color: #afafaf;
 }
 
 @media only screen and (max-width: 1700px) {
@@ -33,3 +33,46 @@
       font-size: 1.1em !important;
     }
   }
+
+
+.iconImg{
+  width: 2rem;
+  top: 10px;
+  padding-top: 20%;
+}
+
+.vertical-timeline-element-subtitle {
+  padding-top: 10px;
+  color: #C49B66;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .iconImg{
+    width: 1.4rem;
+  }
+
+  .title-exp{
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 15px;
+    color: #C49B66;
+  }
+
+  .vertical-timeline-element-subtitle {
+    padding-top: 10px;
+    font-size: 1.1rem;
+    color: #C49B66;
+  }
+}
+
+
+.vertical-timeline::before{
+  background: #C49B66 !important;
+}
+
+.vertical-timeline-element-icon{
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  box-shadow: 0 0 0 4px #C49B66, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
+}

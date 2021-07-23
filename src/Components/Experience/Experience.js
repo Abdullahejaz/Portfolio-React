@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.css'
+import workIcon from './work.png'
 
 import timelineElements from "./timelineElements";
 
@@ -12,7 +13,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {
 
-    let workIconStyles = { background: "#C49B66" };
+    let workIconStyles = { background: "#181818" };
 
     return (
         <div className="div-experience" id="experience">
@@ -31,6 +32,7 @@ const Experience = () => {
                     date={element.date}
                     dateClassName="date"
                     iconStyle={ workIconStyles }
+                    icon={<img className="iconImg" src={workIcon} alt="work Icon"></img>}
                     >
                     <h3 className="vertical-timeline-element-title elem-title">
                         {element.title}

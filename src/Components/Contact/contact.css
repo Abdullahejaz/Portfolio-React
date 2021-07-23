@@ -21,7 +21,6 @@
     font-size: 3rem;
     padding-bottom: 10px;
     position: relative;
-    z-index: 2;
     color: #ffffff;
 }
 
@@ -54,9 +53,11 @@
     margin-bottom: 15px;
 }
 
+/* Button */
+
 .buton button, .buton a {
-    background-color:#C49B66;
-    color: #ffffff;
+    background-color: #f9ab00;
+    color: #181818;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .5px;
@@ -74,6 +75,13 @@
     cursor: pointer;
     border: 0;
 }
+
+.buton button:hover, .buton a:hover{
+    background-color: #181818;
+    color: #ffffff;
+}
+
+/* ****************************************************************** */
 
 .mar-bottom{
 margin-bottom: 1rem;
