@@ -63,6 +63,11 @@ border-color: #1861ac;
   z-index: 2;
 }
 
+
+.navbar-brand{
+  color: var(--primary-white) !important;   
+}
+
 .dark-theme{
   background-color: #181818;
 }
@@ -94,13 +99,15 @@ nav ul li {
 
 .logo{
   width: 2.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.4rem;
 }
 
 /**************************** Navbar Toggler Animation ******************************/
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
-    outline: 0;
+    outline: none;
 }
 
 .navbar-toggler span {
