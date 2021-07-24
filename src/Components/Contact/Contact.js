@@ -55,8 +55,11 @@ const Contacts = () => {
                     <div class="info full-width">
                     	<div class="row">
                     		<div class="col-md-4">
-                    			<div class="item mb-sm50">
-                                    <img className="icon-contact" src={locationIcon} alt="Skills Icon"></img>
+                    			<div class="item">
+                                    <div>
+                                        <span className="iconify iconSizing" data-icon="feather:phone-call" data-inline="true"></span>
+                                    </div>
+                                    {/* <img className="icon-contact" src={locationIcon} alt="Skills Icon"></img> */}
                     				<div class="cont">
                     					<h6>Phone</h6>
                     					<p>+1 806 283 0449</p>
@@ -64,8 +67,11 @@ const Contacts = () => {
                     			</div>
                     		</div>
                     		<div class="col-md-4">
-                    			<div class="item mb-sm50">
-                                    <img className="icon-contact" src={locationIcon} alt="Skills Icon"></img>
+                    			<div class="item">
+                                    <div>
+                                        <span className="iconify iconSizing" data-icon="clarity:email-line" data-inline="true"></span>
+                                    </div>
+                                    {/* <img className="icon-contact" src={locationIcon} alt="Skills Icon"></img> */}
                     				<div class="cont">
                     					<h6>Email</h6>
                     					<p>abdullah.ejaz1@gmail.com</p>
@@ -74,7 +80,10 @@ const Contacts = () => {
                     		</div>
                     		<div class="col-md-4">
                     			<div class="item">
-                                    <img className="icon-contact" src={locationIcon} alt="Skills Icon"></img>
+                                    <div>
+                                        <span className="iconify iconSizing" data-icon="bx:bx-map" data-inline="false"></span>
+                                    </div>
+                                    {/* <img className="icon-contact" src={locationIcon} alt="Skills Icon"></img> */}
                     				<div class="cont">
                     					<h6>Address</h6>
                     					<p>1905 Oak Creek Rd, New Orleans, LA</p>

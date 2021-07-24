@@ -56,20 +56,15 @@
 /* Button */
 
 .buton button, .buton a {
-    background-color: #f9ab00;
-    color: #181818;
-    font-size: 12px;
+    background-color: #C49B66;
+    color: #ffffff;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: .5px;
     font-weight: 700;
     height: 40px;
     line-height: 40px;
     width: 130px;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    position: relative;
-    -webkit-transition: .3s;
-    transition: .3s;
     -webkit-box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
     box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
     cursor: pointer;
@@ -77,8 +72,8 @@
 }
 
 .buton button:hover, .buton a:hover{
-    background-color: #181818;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #C49B66;
 }
 
 /* ****************************************************************** */
@@ -89,7 +84,6 @@ margin-bottom: 1rem;
 
 .contact .info .item .cont {
     color: #ffffff;
-    margin-left: 45px;
     padding-left: 15px;
     border-left: 1px solid rgba(200, 200, 200, 0.4);
 }
@@ -105,4 +99,17 @@ margin-bottom: 1rem;
 .contact .info .item .icon-contact {
     float: left;
     width: 2.1rem;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.iconSizing{
+    width: 3rem;
+    height: 3rem;
+    color: #C49B66;
+    padding-right: 1rem;
 }

@@ -53,19 +53,19 @@ const Skills = () => {
                                     <h5 className="title">Development Skills</h5>
 
                                     <div className="skill">
-                                        <h6>Full Stack Development <span>90%</span></h6>
+                                        <h6>Full Stack Development <span>85%</span></h6>
                                         <div className="skills-progress"><span className="sk1" data-value='90%'></span></div>
                                     </div>
                                     <div className="skill">
-                                        <h6>Web Development <span>80%</span></h6>
+                                        <h6>Web Development <span>75%</span></h6>
                                         <div className="skills-progress"><span className="sk2" data-value='80%'></span></div>
                                     </div>
                                     <div className="skill">
-                                        <h6>Designing <span>85%</span></h6>
+                                        <h6>Cloud <span>50%</span></h6>
                                         <div class="skills-progress"><span className="sk3" data-value='65%'></span></div>
                                     </div>
                                     <div className="skill">
-                                        <h6>Marketing <span>75%</span></h6>
+                                        <h6>Requirements & Design <span>75%</span></h6>
                                         <div className="skills-progress"><span className="sk4" data-value='75%'></span></div>
                                     </div>
                                 </div>

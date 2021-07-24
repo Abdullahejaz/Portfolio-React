@@ -2,6 +2,7 @@ import React from 'react'
 import Typed from 'react-typed'
 import Particles from 'react-particles-js';
 import './header.css'
+import Resume from './Abdullah_ejaz_Resume.pdf'
 
 
 const Header = () => {
@@ -37,7 +38,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
                 />
-                <a href="#contact" className="btn-main-offer">Contact me</a>
+                <a className="btn-main-offer" href={Resume} download="Abdullah_Resume" >Download CV</a>
             </div>
         </div>
     )

@@ -7,9 +7,8 @@ const Navbar = () => {
         <div className="container-fluid">
             <a className="navbar-brand" href="#header"><img className="logo" src={logo} alt="logo...." />Abdullah</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="iconify hamburger-icon" data-icon="ci:hamburger" data-inline="false"></span>
+                {/* <span class="navbar-toggler-icon"></span> */}
             </button>
             <div className="collapse navbar-collapse abcd" id="navbarScroll">
                 <ul className="navbar-nav my-2 my-lg-0 navbar-nav-scroll" styles="--bs-scroll-height: 100px;">

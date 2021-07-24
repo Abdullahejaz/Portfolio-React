@@ -69,13 +69,13 @@ padding-bottom: 30px;
     width: 85%;
 }
 .sk2{
-    width: 80%;
+    width: 75%;
 }
 .sk3{
-    width: 65%;
+    width: 50%;
 }
 .sk4{
-    width: 80%;
+    width: 75%;
 }
 
 .skills-dev h5 {
@@ -110,7 +110,10 @@ padding-bottom: 30px;
     width: 100%;
     display: grid;
     align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
 }
+
 
 .icon {
     width: 2.4rem;
@@ -126,4 +129,14 @@ padding-bottom: 30px;
     .Skills-tech{
       padding-top: 1.2rem;
     }
+
+    .paddingTop{
+        padding-top: 1rem;
+    }
 }
+
+.iconSizing{
+    color: #C49B66;
+    padding-right: 1rem;
+}
+
