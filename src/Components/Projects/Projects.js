@@ -5,9 +5,9 @@ const Projects = () => {
     return (
         <div className="div-projects" id="projects">
             <hr className="hr-border"></hr>
-            <h1 className="title-exp">Projects</h1>
+            <h1 className="title-proj">Projects</h1>
             <div className="row div-width">
-                <div className="col-sm-6">
+                <div className="col-sm-6 mb-4">
                     <div className="card flip_card_container">
                         <div className="card-body flip_card">
                             <div className="front face">
@@ -47,7 +47,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 mb-4">
                 <div className="card flip_card_container">
                         <div className="card-body flip_card">
                             <div className="front face">
@@ -101,7 +101,7 @@ const Projects = () => {
                     </div>
                     </div>*/}
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 mb-4">
                     <div className="card flip_card_container">
                         <div className="card-body flip_card">
                             <div className="front face">

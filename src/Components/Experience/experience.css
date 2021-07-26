@@ -32,7 +32,7 @@
       margin-top: 0.5em;
       font-size: 1.1em !important;
     }
-  }
+}
 
 
 .iconImg{
@@ -75,4 +75,13 @@
   justify-content: center;
   vertical-align: middle;
   box-shadow: 0 0 0 4px #C49B66, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
+}
+
+@media only screen and (max-width: 767.98) {
+  .title-exp{
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 0px;
+    color: #C49B66;
+  }
 }
