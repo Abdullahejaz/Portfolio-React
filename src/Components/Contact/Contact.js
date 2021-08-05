@@ -11,13 +11,13 @@ const Contacts = () => {
     const initialFormState = {
         email: "",
         name: "",
+        subject: "",
         message: "",
     };
 
     const initialServiceMessage = {
-        email: "",
-        name: "",
-        message: "",
+        class: "",
+        text: "",
     };
 
 
@@ -42,14 +42,14 @@ const Contacts = () => {
               console.log(result);
             setMessage({
                  class: "bg-green-500",
-                 text: "Thanks, someone will be in touch shortly.",
+                 text: "Thanks, I will be in touch shortly.",
                });
               setFormState(initialFormState);
             } catch (error) {
               console.log(error);
                setMessage({
                  class: "bg-red-500",
-                 text: "Sorry, there was a problem. Please try again or contact support.",
+                 text: "Sorry, there was a problem. Please try again later.",
                });
             }
           };
@@ -96,7 +96,7 @@ const Contacts = () => {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="form-group mar-bottom">
-                                        <input id="subject" type="text" name="subject" placeholder="Subject"></input>
+                                        <input id="subject" type="text" onChange={updateFormControl} name="subject" placeholder="Subject" value={formState?.subject}></input>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ const Contacts = () => {
                                     <div className="form-group mar-bottom">
                                         <span className="buton buton-lg">
 	                                    	<button disabled={submitting} type="submit">
-                                               {submitting? 'Submitting...' : 'Send Message'}
+                                               {submitting? 'Sending...' : 'Send Message'}
                                                 </button>
 										</span>
                                     </div>

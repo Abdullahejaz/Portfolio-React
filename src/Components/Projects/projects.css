@@ -47,22 +47,28 @@ hr{
 
 .flip_card_container{
     margin: 10px auto;
-    height: 90%;
-    z-index: 1;
+    height: 100%;
 }
 
 .flip_card {
     height: 100%;
     transform-style: preserve-3d;
-    transition: all 1.0s linear;
+    transition: 1s;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
-    
+    position: relative;
+    padding: 1rem 0rem 0rem 0rem;
 }
 
 .flip_card_container:hover .flip_card {
     transform: rotateY(180deg);
-}
+    
+} 
+
+/* .flip_card_container:hover .front {
+    transform: rotateY(180deg);
+    visibility: hidden;
+} */
 
 .face {
     width: 100%;
@@ -71,12 +77,15 @@ hr{
 }
 
 .face.back {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     transform: rotateY(180deg);
+    position: absolute;
     box-sizing: border-box;
-    padding: 10px;
-    margin-top: -35%;
-    text-align: center;
+    top:0%;
+    background-color: #ffffff;
 }
 
 @media only screen and (max-width: 990px) {
@@ -105,6 +114,10 @@ hr{
         padding: 10px;
         margin-top: -35%;
         text-align: center;
+    }
+
+    .margin-bottom{
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -143,3 +156,4 @@ hr{
 .face h6{
     margin-top: 1rem;
 }
+

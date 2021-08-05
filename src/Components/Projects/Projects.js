@@ -21,26 +21,26 @@ const Projects = () => {
                                     <li>Monitor production environment for outages & irregularities.</li>
                                 </ul>
                             </div>
-                            <div className="back face d-flex justify-content-center flex-wrap mb-5">
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                            <div className="back face">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="cib:dot-net" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:c-sharp" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:javascript" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:bootstrap" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="bx:bxl-jquery" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:html-5" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:css-3" data-inline="false"></span>
                                 </div>
                             </div>
@@ -61,26 +61,26 @@ const Projects = () => {
                                     <li>Integrated ERA Web Service.</li>
                                 </ul>
                             </div>
-                            <div className="back face d-flex justify-content-center flex-wrap mb-5">
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                            <div className="back face">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:dotnet" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:c-sharp" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:javascript" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:bootstrap" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="bx:bxl-jquery" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:html-5" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:css-3" data-inline="false"></span>
                                 </div>
                             </div>
@@ -114,26 +114,26 @@ const Projects = () => {
                                     <li>Integrated with Twitter APIfor prepopulated tweets</li>
                                 </ul>
                             </div>
-                            <div className="back face d-flex justify-content-center flex-wrap mb-5">
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                            <div className="back face">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:python" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:react" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:javascript" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:bootstrap" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="bx:bxl-jquery" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:html-5" data-inline="false"></span>
                                 </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle mb-5">
+                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:css-3" data-inline="false"></span>
                                 </div>
                             </div>
