@@ -48,7 +48,7 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Build Artifacts'
   inputs: 
-    pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+    pathtoPublish: $(Build.ArtifactStagingDirectory)
  
 - task: AzureWebApp@1
   displayName: 'Deploy to App Service'
@@ -56,4 +56,4 @@ steps:
     azureSubscription: '$(serviceConnection)'
     appName: '$(appServiceName)'
     appType: 'webApp'
-    package: '$(System.ArtifactsDirectory)/$(Build.BuildId).zip'
+    package: '$(System.ArtifactsDirectory)'
