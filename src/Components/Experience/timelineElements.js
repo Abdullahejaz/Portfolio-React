@@ -14,7 +14,7 @@ let timelineElements = [
       title: "Full Stack Developer",
       location: "DXC Technologies, LA",
       description:
-        "Working hand-in-hand with developers by providing the outward facing web application elements server-side logic. Creating the logic to make the application function properly, and accomplishing this through the use of server-side scripting languages.",
+        "Participating in the design and creation of scalable software solutions for clients following Agile Software Development Methodology. Writing clean, functional code on the front- and back-end. Testing and fixing bugs or other coding issues.",
       buttonText: "View Backend Projects",
       date: "February 2019 - October 2020",
       icon: "work",
