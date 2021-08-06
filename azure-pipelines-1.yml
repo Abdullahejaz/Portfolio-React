@@ -11,7 +11,6 @@ pool:
 
 # Set variables
 variables:
-  directory: portfolio
   stage: development
   serviceConnection: ABDULLAH_PORTFOLIO
   appServiceName: abdullahportfolio
@@ -25,17 +24,15 @@ steps:
 - script: 
     npm install
   displayName: 'npm install'
-  workingDirectory: $(directory)
  
 - script: 
     set "REACT_APP_STAGE=$(stage)" && npm run build
   displayName: 'npm build'
-  workingDirectory: $(directory)
  
 - task: CopyFiles@2
   displayName: 'Copy files'
   inputs:
-    sourceFolder: '$(directory)/build' 
+    sourceFolder: 'portfolio/build' 
     Contents: '**/*'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     cleanTargetFolder: true
