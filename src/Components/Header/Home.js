@@ -5,9 +5,9 @@ import './header.css'
 import Resume from './Abdullah_ejaz_Resume.pdf'
 
 
-const Header = () => {
+const Home = () => {
     return (
-        <div className="header-wraper" id="header">
+        <div className="header-wraper" id="home">
             <Particles
               className="partical-canvas"
                 params={{
@@ -33,9 +33,9 @@ const Header = () => {
                 <h1>I am Abdullah Ejaz</h1>
                 <Typed 
                 className="typed-text"
-                strings={["Full Stack Developer", "Web Developer" ]}
+                strings={["Full Stack Developer", "Software Engineer", "Web Developer" ]}
                 typeSpeed={40}
-                backSpeed={60}
+                backSpeed={35}
                 loop
                 />
                 <a className="btn-main-offer" href={Resume} download="Abdullah_Resume" >Download CV</a>
@@ -44,4 +44,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Home

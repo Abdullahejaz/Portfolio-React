@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
-import Header from './Components/Header/Header';
+import Home from './Components/Header/Home';
 import Skills from './Components/Skills/Skills';
 import Experience from './Components/Experience/Experience';
 import Projects from './Components/Projects/Projects';
@@ -15,7 +15,7 @@ function App() {
     <div className="app">
         <Navbar />
       <div className="sections">
-        <Header />
+        <Home />
         <Skills />
         <Experience />
         <Projects />

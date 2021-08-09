@@ -86,20 +86,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    {/*  
-                    <div className="card">
-                    <div className="card-body">
-                        <h5 className="card-title">CAYUSE Administrative Research Log</h5>
-                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <ul>
-                            <li>MVC Web App to track research proposals</li>
-                            <li>Interactive and Responsive UI</li>
-                            <li>Feature to export data to Excel in the web app gridview</li>
-                            <li>Integrated ERA Web Service.</li>
-                        </ul>
-                        <a href="#abcd" className="btn btn-primary">Go somewhere</a>
-                    </div>
-                    </div>*/}
                 </div>
                 <div className="col-sm-6 mb-4">
                     <div className="card flip_card_container">
@@ -139,18 +125,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <ul>
-                                <li>Artificial Intelligent car race simulation application.</li>
-                                <li>Highly resposive application with cool animations.</li>
-                                <li>Integrated with Twitter APIfor prepopulated tweets</li>
-                            </ul>
-                            <a href="#abcd" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>
