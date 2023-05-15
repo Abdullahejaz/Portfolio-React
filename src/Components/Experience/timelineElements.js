@@ -1,12 +1,22 @@
 let timelineElements = [
-    {
+  {
+    id: 1,
+    title: "Software Engineer",
+    location: "Illumina Inc., San Diego, CA",
+    description:
+      "Develop end-to-end full stack applications using React, Node.js, Next.js, Prisma, PostgreSQL, and JavaScript taking responsibility for the entire development lifecycle, from design to deployment..",
+    buttonText: "View Projects",
+    date: "December 2021 - present",
+    icon: "work",
+  },
+  {
       id: 1,
       title: "Software Developer",
       location: "Gainwell Technologies, New Orleans, LA",
       description:
         "Design, Develop and maitain both new and existing code ranging from server-side code using C# and ASP.NET, LINQ, MSSQL to client-side development using JavaScript, Bootstrap, HTML & CSS.",
       buttonText: "View Projects",
-      date: "October 2020 - present",
+      date: "October 2020 - December 2021",
       icon: "work",
     },
     {
