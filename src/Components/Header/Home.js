@@ -2,7 +2,7 @@ import React from 'react'
 import Typed from 'react-typed'
 import Particles from 'react-particles-js';
 import './header.css'
-import Resume from './Abdullah_ejaz_Resume.pdf'
+import Resume from './Abdullah_Ejaz_Resume.pdf'
 
 
 const Home = () => {
