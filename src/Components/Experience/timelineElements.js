@@ -4,7 +4,7 @@ let timelineElements = [
     title: "Software Engineer",
     location: "Illumina Inc., San Diego, CA",
     description:
-      "Develop end-to-end full stack applications using React, Angular, Node.js, Prisma, PostgreSQL, and JavaScript taking responsibility for the entire development lifecycle, from design to deployment..",
+      "Develop end-to-end full stack applications using React, Angular, Node.js, Prisma, PostgreSQL, and JavaScript taking responsibility for the entire development lifecycle, from design to deployment.",
     buttonText: "View Projects",
     date: "December 2021 - present",
     icon: "work",
@@ -24,7 +24,7 @@ let timelineElements = [
       title: "Full Stack Developer",
       location: "DXC Technologies, LA",
       description:
-        "Participating in the design and creation of scalable software solutions for clients following Agile Software Development Methodology. Writing clean, functional code on the front- and back-end. Testing and fixing bugs or other coding issues.",
+        "Participating in the design and creation of scalable software solutions for clients following Agile Software Development Methodology. Writing clean, functional code on the front and back-end. Testing and fixing bugs or other coding issues.",
       buttonText: "View Backend Projects",
       date: "February 2019 - October 2020",
       icon: "work",
