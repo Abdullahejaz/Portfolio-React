@@ -4,7 +4,7 @@ let timelineElements = [
     title: "Software Engineer",
     location: "Illumina Inc., San Diego, CA",
     description:
-      "Develop end-to-end full stack applications using React, Node.js, Next.js, Prisma, PostgreSQL, and JavaScript taking responsibility for the entire development lifecycle, from design to deployment..",
+      "Develop end-to-end full stack applications using React, Angular, Node.js, Prisma, PostgreSQL, and JavaScript taking responsibility for the entire development lifecycle, from design to deployment..",
     buttonText: "View Projects",
     date: "December 2021 - present",
     icon: "work",
