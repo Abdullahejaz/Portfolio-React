@@ -152,7 +152,7 @@ const Contacts = () => {
                                     </div>
                     				<div className="cont">
                     					<h6>Address</h6>
-                    					<p>1905 Oak Creek Rd, New Orleans, LA</p>
+                    					<p>San Diego, California, USA</p>
                     				</div>
                     			</div>
                     		</div>
