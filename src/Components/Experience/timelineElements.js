@@ -1,7 +1,7 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Software Engineer",
+    title: "Sr. Software Engineer",
     location: "Illumina Inc., San Diego, CA",
     description:
       "Develop end-to-end full stack applications using React, Angular, Node.js, Prisma, PostgreSQL, and JavaScript taking responsibility for the entire development lifecycle, from design to deployment.",
