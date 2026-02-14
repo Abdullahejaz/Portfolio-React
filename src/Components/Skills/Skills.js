@@ -31,15 +31,15 @@ const Skills = () => {
                                     <h5 className="title">My Skills</h5>
                                     <div className="listItem">
                                         <h6>Programming Languages</h6>
-                                        <p>C#, Java</p>
+                                        <p>C#, Java, JavaScript, TypeScript</p>
                                     </div>
                                     <div className="listItem">
                                         <h6>Technologies</h6>
-                                        <p>MVC 5, .NET Core, Web API, Azure</p>
+                                        <p>MVC 5, .NET Core, Web API, AWS, PostgreSQL</p>
                                     </div>
                                     <div className="listItem">
-                                        <h6>Client And Browser Tools</h6>
-                                        <p>JavaScript, React, HTML5, Bootstrap, CSS, JQuery</p>
+                                        <h6>Front-end Framework & Tools</h6>
+                                        <p>React, Angular, HTML5, Bootstrap, CSS, PowerApps</p>
                                     </div>
                                     {/* <div className="listItem">
                                         <h6>DBMS</h6>
