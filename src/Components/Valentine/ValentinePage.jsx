@@ -97,7 +97,7 @@ export default function ValentinePage() {
               </button>
             </div>
 
-            <p className="warning"> Ayeshu... don’t even think about clicking ‘No’ 👀</p>
+            <p className="warning"> Ayeshu... don’t be mean and click ‘No’ 🥺</p>
           </>
         ) : (
           <div className="YesPageText">
