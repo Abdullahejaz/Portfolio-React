@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent, useState } from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 import axios from 'axios';
 
@@ -25,7 +25,7 @@ const Contacts = () => {
         const [submitting, setSubmitting] = useState(false);
         const [message, setMessage] = useState(initialServiceMessage);
 
-        const submitForm = async (event: FormEvent) => {
+        const submitForm = async (event) => {
             event.preventDefault();
             setSubmitting(true);
             await postSubmission();
@@ -55,7 +55,7 @@ const Contacts = () => {
           };
 
           const updateFormControl = (
-            event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+            event
           ) => {
             const { id, value } = event.target;
             const key = id;
@@ -152,7 +152,7 @@ const Contacts = () => {
                                     </div>
                     				<div className="cont">
                     					<h6>Address</h6>
-                    					<p>1905 Oak Creek Rd, New Orleans, LA</p>
+                    					<p>San Diego, CA</p>
                     				</div>
                     			</div>
                     		</div>

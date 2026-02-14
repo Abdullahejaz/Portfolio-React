@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -9,11 +10,12 @@ import Experience from './Components/Experience/Experience';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import ValentinePage from './Components/Valentine/ValentinePage';
 
 function App() {
   return (
     <div className="app">
-        <Navbar />
+        {/* <Navbar />
       <div className="sections">
         <Home />
         <Skills />
@@ -22,7 +24,9 @@ function App() {
         <Contact />
         <Footer />
 
-      </div>
+
+      </div> */}
+      <ValentinePage />
     </div>
   );
 }

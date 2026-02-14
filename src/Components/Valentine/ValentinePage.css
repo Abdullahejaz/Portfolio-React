@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+*{
+    font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.page {
+    
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right, #ffe6f0, #ffccd5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .card {
+    background: transparent;
+    border: none;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+  
+  .yes {
+    background-color: #ff4d88;
+    color: white;
+    border: none;
+  }
+  
+  .no {
+    background-color: white;
+    border: 2px solid #ff4d88;
+    color: #ff4d88;
+  }
+  
+  .warning {
+    margin-top: 5em;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .YesPageText {
+    margin-top: 20px;
+  }
+
+  .YesPageText h2{
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  
