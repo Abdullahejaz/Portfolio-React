@@ -69,6 +69,7 @@ export default function ValentinePage() {
           <img
             className="image"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
+            alt="gif"
           />
 
             <h2>Will you be my Valentine? 💖</h2>
