@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
 
-*{
+/* *{
     font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-.page {
+} */
+/* .page {
     
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(to bottom right, #ffe6f0, #ffccd5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-  }
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom right, #ffe6f0, #ffccd5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
   
   .card {
     background: transparent;
@@ -70,4 +70,4 @@
     margin-top: 20px;
     font-weight: 400;
   }
-  
+   */

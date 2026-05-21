@@ -97,7 +97,7 @@ const Projects = () => {
                                 <ul>
                                     <li>Artificial Intelligent car race simulation application.</li>
                                     <li>Highly resposive application with cool animations.</li>
-                                    <li>Integrated with Twitter APIfor prepopulated tweets</li>
+                                    <li>Integrated with Twitter API for prepopulated tweets</li>
                                 </ul>
                             </div>
                             <div className="back face">

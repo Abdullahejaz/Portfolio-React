@@ -24,17 +24,33 @@ const Home = () => {
                             density: { enable: true, area: 700 }
                         },
                         shape: { type: "circle" },
+                        // Make circles translucent
+                        opacity: {
+                            value: 0.5, 
+                        },
                         stroke: {
                             width: 6,
                             color: "#f9ab00"
                         },
-                        move: { enable: true, speed: 2 }
+                        // Connect the dots
+                        links: {
+                            enable: true,
+                            distance: 150,
+                            color: "#f9ab00",
+                            opacity: 0.4,
+                            width: 1
+                        },
+                        move: { 
+                            enable: true, 
+                            speed: 0.5 // Reduced from 1 for slower motion
+                        }
                     }
                 }}
             />
+
             
             <div className="main-info">
-                <h1>I am XYZ</h1>
+                <h1>I am Abdullah Ejaz</h1>
                 <TypeAnimation
                     className="typed-text"
                     sequence={[
